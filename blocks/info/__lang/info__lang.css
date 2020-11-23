@@ -1,0 +1,17 @@
+.info__lang {
+  display: block;
+  /* font-family: ; */
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  writing-mode: tb-rl; /* текст по вертикали*/
+  transform: rotate(180deg);
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 320px) and  (max-width: 375px) {
+  .info__lang {
+    display: none;
+  }
+}

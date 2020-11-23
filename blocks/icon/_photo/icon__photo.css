@@ -1,0 +1,8 @@
+.icon__photo {
+}
+
+@media screen and (max-width: 475px) {
+  .icon__photo {
+    margin-top: 80px;
+  }
+}

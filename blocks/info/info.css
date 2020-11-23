@@ -1,0 +1,14 @@
+@import url(./__name/info__name.css);
+@import url(./__about/info__about.css);
+@import url(./__lang/info__lang.css);
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and  (max-width: 375px) {
+  .info {
+    display: block;
+  }
+}

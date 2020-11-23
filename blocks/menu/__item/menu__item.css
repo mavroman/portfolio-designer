@@ -1,0 +1,9 @@
+.menu__item {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.menu__item:hover {
+    opacity: 0.5;
+}

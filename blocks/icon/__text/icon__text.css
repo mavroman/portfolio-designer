@@ -1,0 +1,11 @@
+.icon__text {
+  /* font-family: ; */
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 475px) {
+  .icon__text {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,13 @@
+.icons {
+  max-width: 940px;
+  margin: 83px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 475px) {
+  .icons {
+    display: block;
+    margin: 0 auto;
+  }
+}
