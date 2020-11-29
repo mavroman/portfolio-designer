@@ -1,0 +1,33 @@
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .menu-icon {
+        display: block;
+        width: 33px;
+        height: 19px;
+        cursor: pointer;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        background: url(../../images/menu-icon.svg) no-repeat center;
+        background-size: contain;
+
+    
+        
+    }
+
+    .menu-icon_active {
+        display: block;
+        width: 33px;
+        height: 19px;
+        cursor: pointer;
+        position: fixed;
+        top: 60px;
+        right: 30px;
+        background: url(../../images/menu-icon-exit.svg) no-repeat center;
+        background-size: contain;
+
+    }
+}

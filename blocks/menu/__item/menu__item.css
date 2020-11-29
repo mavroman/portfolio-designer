@@ -1,9 +1,16 @@
 .menu__item {
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
 }
 
 .menu__item:hover {
-    opacity: 0.5;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .menu__item {
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
 }
