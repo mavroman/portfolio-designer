@@ -1,8 +1,8 @@
 .about-author__text {
-    max-width: 490px;
-    margin: 20px auto;
-    text-align: center;
-     /* font-family: ; */
-     font-size: 18px;
-     line-height: 21px;
+  max-width: 490px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
 }

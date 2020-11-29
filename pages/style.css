@@ -1,3 +1,5 @@
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu-icon/menu-icon.css);
@@ -9,3 +11,4 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/footer-icons/footer-icons.css);
 @import url(../blocks/footer/footer.css);
+
